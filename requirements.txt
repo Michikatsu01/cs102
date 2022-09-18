@@ -1,2 +1,8 @@
+distlib==0.3.6
+filelock==3.8.0
+platformdirs==2.5.2
 pygame==2.1.2
 pygame-menu==4.2.8
+pyperclip==1.8.2
+typing_extensions==4.3.0
+virtualenv==20.16.3
