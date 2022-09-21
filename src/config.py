@@ -39,7 +39,7 @@ class GameConfig:
     PLAYER_SOFT_EDGE_WIDTH: int = 300
 
     VICTORY_BACKGROUND: Path = ASSET_DIR / "backgrounds" / "victory.png"
-
+    DEFEAT_BACKGROUND: Path = ASSET_DIR / "backgrounds" / "defeat.jpg"
     MENU_MUSIC: Path = ASSET_DIR / "sounds" / "background" / "menu.wav"
     MENU_MUSIC_VOLUME: float = 0.12
 
@@ -137,7 +137,7 @@ class ShadowBossConfig:
     ANIMATION_INTERVAL_MS: int = 200
     SPEED: int = 1
     DAMAGE: int = 1
-    INITIAL_HP: int = 100
+    INITIAL_HP: int = 500
 
     ANGRY_INTERVAL_MS: int = 7000
     ANGRY_DURATION_MS: int = 2000
@@ -160,7 +160,7 @@ class ShadowBulletConfig:
 
 
 class EndingBurgerConfig:
-    SPRITE_PATH: Path = ASSET_DIR / "items" / "player_bullet.png"
+    SPRITE_PATH: Path = ASSET_DIR / "items" / "full_heart.png"
     SCALE: float = 0.8
     GRAVITY: float = 2.5
 
