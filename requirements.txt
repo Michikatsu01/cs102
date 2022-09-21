@@ -6,8 +6,3 @@ pygame-menu==4.2.8
 pyperclip==1.8.2
 typing_extensions==4.3.0
 virtualenv==20.16.3
-
-config~=0.5.1
-common~=0.1.2
-Pillow~=9.2.0
-image~=1.5.33
